@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+}
+body h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000;
+  text-align: center;
+  padding: 3vh 0;
+  color:rgb(10, 10, 10);
+}
+
+.main {
+  margin: auto;
+  width: 38%;
+  height: 81vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 900px 1px rgb(141, 141, 141);
+  overflow: hidden;
+  background-color: #616161;
+}
+
+#resultbox {
+  width: 1000%;
+  height: 13vh;
+  border: none;
+  font-size: 5vh;
+  font-weight: 400;
+  
+  padding: 30px 50px;
+  margin-bottom: px;
+}
+#resultbox:focus {
+  outline: none;
+}
+#resultbox:hover {
+  cursor: default;
+}
+
+.btcont{
+  display: grid;
+  grid-template-columns: .5fr .5fr .5fr;
+  row-gap: 10px;
+}
+
+#clear{
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color:rgb(228, 83, 112);
+  font-weight: 500;
+  position: absolute;
+  color: white;
+  top: 19px;
+  right: 55px;
+  border-radius:30px ;
+}
+#clear:focus, .btitem:focus{
+  outline: none;
+}
+#clear:hover, .btitem:hover{
+  cursor: pointer;
+}
+
+.btitem{
+   height: 60px;
+  width: 60px;
+  border: none;
+  background-color:rgb(143, 143, 143);
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius:20px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
